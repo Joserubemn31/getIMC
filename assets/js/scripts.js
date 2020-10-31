@@ -56,13 +56,7 @@ function handleSubmit(event) {
               Seu Índice de Massa Corporal é ${imc} kg/m2.
             </li>
             <li>
-              Sua classificação é <strong>${classification}</strong>.
-            </li>
-            <li>
-              Caso não esteja dentro do peso ideal deve <strong>adequar a alimentação e fazer exercícios</strong> para conseguir atingir o peso adequado.
-            </li>
-            <li>
-              Caso esteja dentro do peso ideal <strong>Parabéns!</strong> Uma boa qualidade de vida está diretamente ligada a saúde.
+              Sua classificação é ${classification}.
             </li>
           </ul>
         </div>
