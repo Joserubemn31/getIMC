@@ -1,0 +1,65 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>getIMC</title>
+  <link href="/assets/style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h2>getIMC</h2>
+    </header>
+
+    <div class="content">
+      <form id="form">
+        <div class="form-group">
+          <label for="gender">Seu sexo</label>
+          <select id="gender">
+            <option value="male">Masculino</option>
+            <option value="female">Feminino</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="age">Sua idade</label>
+          <input type="number" id="age"/>
+        </div>
+        <div class="form-group">
+          <label for="weight">Seu peso</label>
+          <input type="number" id="weight" placeholder="Em kg"/>
+        </div>
+        <div class="form-group">
+          <label for="height">Sua altura</label>
+          <input type="number" id="height" placeholder="Em m"/>
+        </div>
+
+        <div class="form-group">
+          <button type="submit">Calcular!</button>
+        </div>
+      </form>
+      <div class="result-container">
+        <h2>Aqui está o resultado:</h2>
+
+        <div class="result-content">
+          <ul>
+            <li>
+              Seu metabolismo basal é de <strong>1606 calorias</strong>.
+            </li>
+            <li>
+              Para manter o seu peso você precisa consumir em média <strong>1928 calorias</strong>.
+            </li>
+            <li>
+              Para perder peso você precisa consumir em média <strong>1638 calorias</strong>.
+            </li>
+            <li>
+              Para ganhar peso você precisa consumir em média <strong>2217 calorias</strong>.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
