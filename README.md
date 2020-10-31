@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub top language" src="assets/print.png">
+  <img alt="GitHub top language" src="/assets/print.png">
 </p>
 
 ## :rocket: Technologies:
